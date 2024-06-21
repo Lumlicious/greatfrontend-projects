@@ -24,11 +24,9 @@ const BlogCard = ({ image, tag, title, content, link }: BlogCardProps) => {
           className={styles.image}
           src={`/${image}`}
           alt="Blog Image"
-          //   fill
           style={{ objectFit: "cover" }}
           width={640}
           height={640}
-          // style={{ width: "100%", height: "auto" }}
         />
       </div>
 
