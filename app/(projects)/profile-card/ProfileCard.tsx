@@ -65,6 +65,7 @@ const ProfileCard = ({ data }: ProfileCardProps) => {
               className={styles["social-link"]}
               href={link.link}
               aria-label={link.label}
+              key={link.label}
             >
               {supportedSocial[link.icon] || (
                 <RiQuestionMark className={styles["social-icon"]} size={20} />
