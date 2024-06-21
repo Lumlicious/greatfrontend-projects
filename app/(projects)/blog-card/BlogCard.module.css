@@ -1,0 +1,78 @@
+.container {
+  font-family: var(--font-noto-sans);
+
+  width: 340px;
+  background-color: var(--background-primary);
+  border: 1px solid var(--border-primary);
+  border-radius: 8px;
+
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.06);
+}
+
+.content {
+  padding: 24px 16px;
+}
+
+.image {
+  height: 288px;
+  width: 340px;
+  border-radius: 8px 8px 0px 0px;
+}
+
+.badge {
+  border-radius: 9999px;
+  border: 1px solid var(--border-success);
+  color: var(--text-success);
+  font-size: var(--text-sm);
+  line-height: 20px;
+  background-color: var(--background-success-subtle);
+  padding: 2px 8px;
+}
+
+.title {
+  font-size: var(--text-lg);
+  line-height: 28px;
+  font-weight: 600;
+  margin: 0.5rem 0 0.8rem 0;
+}
+
+.content {
+  font-size: var(--text-base);
+  line-height: 1.5rem;
+  color: var(--text-secondary);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.description {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.morelink {
+  color: var(--brand);
+  font-size: var(--text-base);
+  line-height: 1.5rem;
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.morelink:hover {
+  color: var(--brand-hover);
+}
+
+.morelink:focus {
+  color: var(--brand-hover);
+  outline: 4px solid var(--brand-focus);
+  border-radius: 4px;
+}
+
+.arrow {
+  margin-left: 0.3rem;
+}

@@ -140,3 +140,23 @@ body {
 * {
   box-sizing: border-box;
 }
+
+:root {
+  /* Typography */
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+
+  /* Colors */
+  --text-primary: #171717;
+  --text-secondary: #525252;
+  --text-success: #15803d;
+  --border-primary: #e5e5e5;
+  --border-success: #bbf7d0;
+  --background-primary: #fff;
+  --background-success-subtle: #f0fdf4;
+
+  --brand: #4338ca;
+  --brand-hover: #3730a3;
+  --brand-focus: rgba(55, 48, 163, 0.1);
+}
